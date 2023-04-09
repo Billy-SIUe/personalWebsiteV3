@@ -5,23 +5,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Billy Rohrkaste</title>
+    <h1>Billy Rohr<span>kaste</span> - billy<span>rohr</span>@icloud.com - <span>314</span>7070246</h1>
 </head>
 
 <body>
-    <div class="grid">
-        <div class="card" style="width: 18rem;">
-        <img src="assets/slack_avatar.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-             <a href="#" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
-          <a href="#" class="btn "><i class="fab fa-github"></i> Github</a>
+    <div class="card-container">
+        <div class="card"> <!--Billy Card-->
+            <h2>About me</h2>
+            <img src="assets/slack_avatar.png" alt="default profile pic">
+            <div class="card-body">
+                <h3 class="card-title">Software Developer</h3>
+                <h4 class="card-subtitle">Coffee drinker and table tennis player</h4>
+                <p class="card-text"> Develoed my personal website using HTML, CSS/Grid, and Javascript (it's responsive w/out even using any @media queries! Thanks, CSS Grid!). <br><br>I hope you like my projects and I hope to talk to you soon!</p>
+                <a href="https://www.linkedin.com/in/billyrohr/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/Billy-SIUe" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
         </div>
+        <div class="card"> <!--Verifly Card-->
+            <h2>Verifly</h2>
+            <img src="assets/veriflight.png" alt="logo of verifly">
+            <div class="card-body">
+                <h3 class="card-title">Java React mySQL</h3>
+                <h4 class="card-tech">Document verification system</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed est hic quam totam cumque corporis mollitia voluptatum.</p>
+                <a href="#">Visit Site</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+        <div class="card"> <!--SafeCarSearch Card-->
+            <h2>SafeCarSearch</h2>
+            <img src="assets/crash.webp" alt="logo of safe car search">
+            <div class="card-body">
+                <h3 class="card-title">Spring Svelte MongoDB</h3>
+                <h4 class="card-tech">Filter various safety scores</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed est hic quam totam cumque corporis mollitia voluptatum.</p>
+                <a href="#">Visit Site</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+        <div class="card"> <!--Contact Me Card-->
+            <h2>Contact me!</h2>
+            <img src="assets/Cool_Guy_High_Res.webp" alt="cool guy image">
+            <div class="card-body">
+                <form>
+                    <h3 class="card-title">Name: <input type="text"></h3>
+                    <h4 class="card-tech">Email: <input type="text"></h4>
+                    <p class="card-text">Message: <input type="text"></p>
+                    <button type="button" onclick="revealMessage()">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
+    <div class="footer"></div>
+    billy's website - copyright 2023
+    <script src="script.js"></script>
 </body>
-
 </html>
