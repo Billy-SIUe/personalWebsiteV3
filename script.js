@@ -1,3 +1,4 @@
 function revealMessage() {
     alert("Submitted!");
+    
 }
