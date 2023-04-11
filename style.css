@@ -15,6 +15,10 @@ span {
     text-decoration: none;
     color: black
 }
+.phone {
+    text-decoration: none;
+    color: black;
+}
 .card-container {
     margin-top: 95px;
     display: grid;
